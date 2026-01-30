@@ -1,19 +1,14 @@
-# Personal website (GitHub Pages)
+# Personal website (GitHub Pages) — v2 (Tabs + Light theme)
 
-This is a simple static website (HTML/CSS) ready for GitHub Pages.
+## Publish
+1. Upload these files to your repo root (same level as `index.html`)
+2. GitHub → Settings → Pages → ensure it deploys from the correct branch
 
-## Quick start
-1. Create a repo named **YOURUSERNAME.github.io**
-2. Upload all files from this folder to the repo root
-3. GitHub → **Settings** → **Pages**
-   - Source: Deploy from a branch
-   - Branch: `main` / root
-4. Your site will be available at: `https://YOURUSERNAME.github.io`
+## Photo not showing?
+- Make sure the file exists exactly at: `assets/headshot.jpg` (case-sensitive)
+- The `assets` folder must be committed/pushed
+- In a project site (like /NGUYEN-Anh-Tuan/), use relative paths like `./assets/headshot.jpg` (already set)
 
-## Customize
-- Edit `index.html` (text, sections, links)
-- Edit `styles.css` (design)
-- Replace `assets/headshot.jpg` with another photo (same name keeps it simple)
-- Replace `cv.pdf` with your latest CV (keep the filename the same)
-
-Tip: add your Google Scholar / LinkedIn / GitHub links in the Contact section.
+## Tabs
+This version shows one section at a time (About/Research/Publications/Teaching/Projects/Contact).
+You can link directly to a tab using hashes, e.g. `.../index.html#publications`.
