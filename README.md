@@ -1,14 +1,23 @@
-# Personal website (GitHub Pages) — v2 (Tabs + Light theme)
+# Personal website (GitHub Pages) — v3
+
+This version adds:
+- Light theme
+- Tabs that show one section at a time
+- Employment tab
+- Publications tab with Journal articles and Working papers
+- Teaching tab with hours and institutions (from CV)
+- Skills tab
+- Updated Google Scholar and LinkedIn links
 
 ## Publish
-1. Upload these files to your repo root (same level as `index.html`)
-2. GitHub → Settings → Pages → ensure it deploys from the correct branch
+Replace the files in your repo root with the contents of this folder:
+- index.html
+- styles.css
+- cv.pdf
+- assets/headshot.jpg
+- assets/favicon.png
+- .nojekyll
 
 ## Photo not showing?
-- Make sure the file exists exactly at: `assets/headshot.jpg` (case-sensitive)
-- The `assets` folder must be committed/pushed
-- In a project site (like /NGUYEN-Anh-Tuan/), use relative paths like `./assets/headshot.jpg` (already set)
-
-## Tabs
-This version shows one section at a time (About/Research/Publications/Teaching/Projects/Contact).
-You can link directly to a tab using hashes, e.g. `.../index.html#publications`.
+For a project site like /NGUYEN-Anh-Tuan/, always use relative paths like ./assets/headshot.jpg (already set).
+Also make sure the filename is exactly assets/headshot.jpg and that you committed the assets folder.
