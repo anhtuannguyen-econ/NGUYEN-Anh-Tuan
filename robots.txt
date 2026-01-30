@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anhtuannguyen-econ.github.io/NGUYEN-Anh-Tuan/sitemap.xml
