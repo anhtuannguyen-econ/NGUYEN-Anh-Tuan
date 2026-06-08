@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -6,12 +6,12 @@
   
   <!-- Primary Meta Tags -->
   <title>NGUYEN Anh-Tuan | Economist | Behavioral & Environmental Economics</title>
-  <meta name="description" content="NGUYEN Anh-Tuan - Economist specializing in behavioral economics, environmental economics, and applied econometrics. Junior Researcher at University of Paris Nanterre, Lecturer at VNU University of Economics and Business.">
+  <meta name="description" content="NGUYEN Anh-Tuan - Economist specializing in behavioral economics, environmental economics, and applied econometrics. Associate Researcher at University of Paris Nanterre, Lecturer at SciencesPo & VNU University of Economics and Business.">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="NGUYEN Anh-Tuan | Economist | Behavioral & Environmental Economics">
-  <meta property="og:description" content="Economist specializing in behavioral economics, environmental economics, and applied econometrics. Junior Researcher at University of Paris Nanterre.">
+  <meta property="og:description" content="Economist specializing in behavioral economics, environmental economics, and applied econometrics. Associate Researcher at University of Paris Nanterre.">
   <meta property="og:image" content="https://anhtuannguyen-econ.github.io/assets/headshot.jpg">
   
   <!-- Twitter -->
@@ -20,19 +20,14 @@
   <meta name="twitter:description" content="Economist specializing in behavioral economics, environmental economics, and applied econometrics.">
   <meta name="twitter:image" content="https://anhtuannguyen-econ.github.io/assets/headshot.jpg">
   
-  <!-- Keywords for SEO -->
-  <meta name="keywords" content="NGUYEN Anh-Tuan, economist, behavioral economics, environmental economics, econometrics, University of Paris Nanterre, VNU University of Economics and Business, agricultural economics, experimental economics">
-  
-  <!-- Author -->
+  <meta name="keywords" content="NGUYEN Anh-Tuan, economist, behavioral economics, environmental economics, econometrics, University of Paris Nanterre, SciencesPo, VNU University of Economics and Business, agricultural economics, experimental economics">
   <meta name="author" content="NGUYEN Anh-Tuan">
-  
-  <!-- Academic specific -->
   <meta name="citation_author" content="Nguyen, Anh-Tuan">
   <meta name="citation_publication_date" content="2026">
-  
   <meta name="theme-color" content="#1a365d" />
   <link rel="icon" href="./assets/favicon.png" />
   <link rel="stylesheet" href="./styles.css" />
+  
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -49,744 +44,293 @@
     },
     {
       "@type": "CollegeOrUniversity",
+      "name": "SciencesPo",
+      "department": "Department of Economics"
+    },
+    {
+      "@type": "CollegeOrUniversity",
       "name": "VNU University of Economics and Business"
     }
   ],
   "alumniOf": [
-    {
-      "@type": "CollegeOrUniversity",
-      "name": "University of Paris Nanterre"
-    },
-    {
-      "@type": "CollegeOrUniversity", 
-      "name": "University of Western Australia"
-    },
-    {
-      "@type": "CollegeOrUniversity",
-      "name": "Vietnam National University of Agriculture"
-    }
+    {"@type": "CollegeOrUniversity", "name": "University of Paris Nanterre"},
+    {"@type": "CollegeOrUniversity", "name": "University of Western Australia"},
+    {"@type": "CollegeOrUniversity", "name": "Vietnam National University of Agriculture"}
   ],
   "sameAs": [
     "https://orcid.org/0000-0001-8285-9908",
     "https://scholar.google.com/citations?user=jFXDZloAAAAJ",
     "https://www.linkedin.com/in/tuan-nguyen-anh-2b5825125/"
   ],
-  "knowsAbout": [
-    "Behavioral Economics",
-    "Environmental Economics",
-    "Agricultural Economics",
-    "Microeconometrics",
-    "Experimental Economics",
-    "Production Economics"
-  ]
+  "knowsAbout": ["Behavioral Economics", "Environmental Economics", "Agricultural Economics", "Microeconometrics", "Experimental Economics", "Production Economics"]
 }
 </script>
+  
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; background:#f8fafc; color:#0f172a; line-height:1.5;}
+    .container{max-width:1200px;margin:0 auto;padding:0 1.5rem;}
+    .header{background:white;border-bottom:1px solid #e2e8f0;position:sticky;top:0;z-index:10;background:rgba(255,255,255,0.98);backdrop-filter:blur(2px);}
+    .hero{display:flex;justify-content:space-between;align-items:center;gap:2rem;flex-wrap:wrap;padding:2rem 1.5rem;}
+    .hero-left{flex:2;}
+    .hero-right{flex:1;text-align:center;}
+    h1{font-size:2.2rem;font-weight:700;letter-spacing:-0.01em;margin-bottom:0.5rem;color:#0f172a;}
+    .subtitle{font-size:1.1rem;color:#2d3748;margin-bottom:0.75rem;border-left:3px solid #2c7da0;padding-left:1rem;}
+    .meta{color:#475569;margin:0.75rem 0;}
+    .micro{font-size:0.85rem;margin-top:1rem;color:#475569;}
+    .btn{display:inline-block;background:#f1f5f9;color:#1e293b;padding:0.5rem 1.2rem;border-radius:40px;text-decoration:none;font-weight:500;margin-right:0.75rem;transition:0.2s;border:1px solid #cbd5e1;}
+    .btn.primary{background:#1e3a5f;color:white;border:none;}
+    .btn:hover{background:#e2e8f0;transform:translateY(-1px);}
+    .btn.primary:hover{background:#0f2b44;}
+    .headshot{width:180px;height:180px;object-fit:cover;border-radius:50%;border:3px solid white;box-shadow:0 10px 25px -5px rgba(0,0,0,0.1);}
+    .tabs{background:white;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;}
+    .tabs-inner{display:flex;flex-wrap:wrap;gap:0.25rem;padding:0;}
+    .tab{background:transparent;border:none;padding:0.9rem 1.2rem;font-size:0.9rem;font-weight:500;cursor:pointer;color:#475569;transition:0.2s;border-bottom:2px solid transparent;}
+    .tab.active{border-bottom-color:#1e3a5f;color:#1e3a5f;background:#f1f5f9;}
+    .tab:hover{background:#f1f5f9;color:#0f172a;}
+    main{padding:2rem 0 3rem;}
+    .panel{animation:fade 0.2s ease;}
+    .panel.hidden{display:none;}
+    @keyframes fade{from{opacity:0;}to{opacity:1;}}
+    h2{font-size:1.8rem;font-weight:600;margin-bottom:1.5rem;border-left:5px solid #1e3a5f;padding-left:1rem;}
+    h3{font-size:1.3rem;font-weight:600;margin:1.2rem 0 0.8rem 0;}
+    .card{background:white;border-radius:20px;padding:1.5rem;margin-bottom:1.5rem;box-shadow:0 1px 3px rgba(0,0,0,0.05);border:1px solid #e2e8f0;}
+    .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;}
+    .pills{display:flex;flex-wrap:wrap;gap:0.6rem;margin:0.8rem 0;list-style:none;}
+    .pills li{background:#eef2ff;color:#1e3a5f;padding:0.3rem 1rem;border-radius:40px;font-size:0.85rem;}
+    .timeline{list-style:none;}
+    .timeline li{margin-bottom:1.2rem;padding-left:0;border-left:2px solid #cbd5e1;padding-left:1rem;}
+    .tl-title{font-weight:600;}
+    .tl-meta{font-size:0.85rem;color:#475569;margin-top:0.2rem;}
+    .pub{margin-bottom:1rem;padding-bottom:0.8rem;border-bottom:1px dashed #e2e8f0;}
+    .pub-title{font-weight:600;margin-bottom:0.2rem;}
+    .pub-meta{font-size:0.85rem;color:#334155;}
+    .details summary{cursor:pointer;color:#2c7da0;font-weight:500;margin:0.5rem 0;}
+    .tight{margin-bottom:0.2rem;}
+    .muted{color:#475569;}
+    .small{font-size:0.8rem;}
+    table{width:100%;border-collapse:collapse;}
+    th,td{padding:8px 6px;text-align:left;border-bottom:1px solid #e2e8f0;}
+    .footer{background:white;border-top:1px solid #e2e8f0;padding:1.5rem;text-align:center;font-size:0.8rem;color:#475569;}
+    .footer-inner{display:flex;justify-content:center;gap:1rem;}
+    @media (max-width:720px){.hero{flex-direction:column-reverse;text-align:center;}.subtitle{border-left:none;padding-left:0;}.tabs-inner{justify-content:center;}}
+  </style>
 </head>
-
 <body>
-  <header class="header">
-    <div class="container hero">
-      <div class="hero-left">
-        <h1>NGUYEN Anh-Tuan</h1>
-        <p class="subtitle">Economist · Behavioral Economics · Experimental Economics · Agricultural Economics · Environmental Economics · Microeconometrics · Sustainable Development</p>
 
-        <p class="meta">
-          Junior Researcher, EconomiX, University of Paris Nanterre (Dec 2025 to Dec 2026)<br/>
-          Lecturer, VNU University of Economics and Business (Feb 2020 to Present)<br/>
-          Communications Manager, International Society of Vietnam Economists (ISVE) (Jan 2026 to Present)
-        </p>
-
-        <div class="cta">
-          <a class="btn primary" href="./cv.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
-          <a class="btn" href="#contact" data-tab-link="contact">Contact</a>
-        </div>
-
-        <div class="micro">
-          <span class="tag">ORCID</span>
-          <a href="https://orcid.org/0000-0001-8285-9908" target="_blank" rel="noopener">0000-0001-8285-9908</a>
-          <span class="sep">•</span>
-          <a href="https://scholar.google.com/citations?user=jFXDZloAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-          <span class="sep">•</span>
-          <a href="https://www.linkedin.com/in/tuan-nguyen-anh-2b5825125/" target="_blank" rel="noopener">LinkedIn</a>
-          <span class="sep">•</span>
-          <span class="muted">Sartrouville, France</span>
-        </div>
+<header class="header">
+  <div class="container hero">
+    <div class="hero-left">
+      <h1>NGUYEN Anh-Tuan</h1>
+      <p class="subtitle">Economist · Behavioral Economics · Experimental Economics · Agricultural Economics · Environmental Economics · Microeconometrics · Sustainable Development</p>
+      <p class="meta">
+        Associate Researcher, EconomiX, University of Paris Nanterre (Dec 2025 – Current)<br/>
+        Lecturer, Department of Economics, SciencesPo Le Havre (Aug 2026 – Aug 2027)<br/>
+        Lecturer, VNU University of Economics and Business (Feb 2020 – Present)<br/>
+        Communications Manager, International Society of Vietnam Economists (ISVE) (Jan 2026 – Present)
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="./cv.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+        <a class="btn" href="#contact" data-tab-link="contact">Contact</a>
       </div>
-
-      <div class="hero-right">
-        <img class="headshot" src="assets/headshot.jpg" alt="Portrait photo of NGUYEN Anh-Tuan" loading="eager" />
+      <div class="micro">
+        <span class="tag">ORCID</span>
+        <a href="https://orcid.org/0000-0001-8285-9908" target="_blank" rel="noopener">0000-0001-8285-9908</a>
+        <span class="sep">•</span>
+        <a href="https://scholar.google.com/citations?user=jFXDZloAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <span class="sep">•</span>
+        <a href="https://www.linkedin.com/in/tuan-nguyen-anh-2b5825125/" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="sep">•</span>
+        <span class="muted">Sartrouville, France</span>
       </div>
     </div>
-
-    <nav class="tabs" aria-label="Site sections">
-      <div class="container tabs-inner" role="tablist">
-        <button class="tab" role="tab" aria-selected="true"  aria-controls="panel-about"         id="tab-about"         data-tab="about">About</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-employment"    id="tab-employment"    data-tab="employment">Employment</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-research"      id="tab-research"      data-tab="research">Research</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-publications"  id="tab-publications"  data-tab="publications">Publications</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-teaching"      id="tab-teaching"      data-tab="teaching">Teaching</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-conferences"   id="tab-conferences"   data-tab="conferences">Conferences</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-projects"      id="tab-projects"      data-tab="projects">Projects</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-service"       id="tab-service"       data-tab="service">Service</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-skills"        id="tab-skills"        data-tab="skills">Skills</button>
-        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-contact"       id="tab-contact"       data-tab="contact">Contact</button>
-      </div>
-    </nav>
-  </header>
-
-  <main class="container">
-
-    <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
-    <section class="panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" data-panel="about">
-      <h2>About</h2>
-
-      <p>
-        I am an economist working at the intersection of behavioral economics, experimental economics, agricultural economics, environmental economics, development economics and microeconometrics. My research studies how people make decisions when information is incomplete, risks are difficult to assess, and social and institutional contexts shape what is feasible. I focus on sustainable choices and technology adoption, with a particular interest in agriculture and rural economies.
-      </p>
-
-      <p>
-        I earned a PhD in Economics from the lab EconomiX, University of Paris Nanterre, under the supervision of Prof. Phu Nguyen-Van (Research Director, CNRS). My doctoral thesis, <em>"Individual Preferences and Organic Adoption Decisions in Uncertain Contexts"</em>, examined how risk and ambiguity preferences, time preference, information completeness, and government interventions influence farmers' willingness to adopt organic practices. In March 2026, I received the Qualification for the position of Associate Professor (<em>Maître de conférences</em>), Section 5 – Economics Science, issued by the French National Council of Universities (CNU).
-      </p>
-
-      <p>
-        Methodologically, I combine econometric analysis with survey and experimental approaches. I work with observational and panel data, policy evaluation designs, and experiments conducted with real decision makers, often in field settings. Alongside research, I teach econometrics and quantitative methods at graduate and undergraduate levels, with an emphasis on clear identification, transparent inference, and communication that supports decision making.
-      </p>
-
-      <div class="grid2">
-        <div class="card">
-          <h3>Affiliations</h3>
-          <ul>
-            <li><strong>EconomiX</strong>, University of Paris Nanterre, France — Junior Researcher (Dec 2025 to Dec 2026)</li>
-            <li><strong>VNU University of Economics and Business</strong>, Vietnam — Lecturer, Faculty of Political Economy (Feb 2020 to present)</li>
-            <li><strong>International Society of Vietnam Economists (ISVE)</strong> — Communications Manager (Jan 2026 to present)</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Education</h3>
-          <ul>
-            <li><strong>PhD</strong>, Economics, University of Paris Nanterre, France (Nov 2022 to Dec 2025)<br/><span class="muted small">Supervisor: Prof. Phu Nguyen-Van</span></li>
-            <li><strong>MSc</strong>, Agricultural, Resource and Environmental Economics, University of Western Australia, Australia (Jan 2018 to Dec 2019)<br/><span class="muted small">Supervisor: Prof. David Pannell</span></li>
-            <li><strong>BSc (Hons)</strong>, AgriBusiness Administration, Vietnam National University of Agriculture, Vietnam (Sep 2010 to Nov 2014)<br/><span class="muted small">Advanced Training Program jointly operated with the University of Wisconsin-Madison</span></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Research metrics</h3>
-        <ul style="display:flex;gap:2rem;list-style:none;padding:0;flex-wrap:wrap;">
-          <li><strong style="font-size:1.4rem;">12</strong><br/><span class="muted small">H-Index</span></li>
-          <li><a href="https://orcid.org/0000-0001-8285-9908" target="_blank" rel="noopener"><strong>ORCID</strong></a><br/><span class="muted small">0000-0001-8285-9908</span></li>
-          <li><a href="https://scholar.google.com/citations?user=jFXDZloAAAAJ&hl=en" target="_blank" rel="noopener"><strong>Google Scholar</strong></a><br/><span class="muted small">Full publication list</span></li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Selected scholarships &amp; awards</h3>
-        <ul>
-          <li><strong>Vietnam National University Certificate for Scientific Research and Innovation</strong>, 2021–2025</li>
-          <li><strong>France Excellence Scholarship</strong>, November 2022 – November 2025</li>
-          <li><strong>Australia Awards Scholarship</strong>, January 2018 – December 2019</li>
-        </ul>
-      </div>
-
-      <p class="note">
-        This site is organised by tabs. Please select a tab above to view the section you want.
-      </p>
-    </section>
-
-    <!-- ═══════════════════════════ EMPLOYMENT ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-employment" role="tabpanel" aria-labelledby="tab-employment" data-panel="employment">
-      <h2>Employment</h2>
-
-      <div class="card">
-        <ul class="timeline">
-          <li>
-            <div class="tl-title">Junior Researcher, EconomiX Laboratory, University of Paris Nanterre, Paris, France</div>
-            <div class="tl-meta">Dec 2025 to Dec 2026</div>
-          </li>
-          <li>
-            <div class="tl-title">Lecturer, Faculty of Political Economy, VNU University of Economics and Business, Hanoi, Vietnam</div>
-            <div class="tl-meta">Feb 2020 to present</div>
-          </li>
-          <li>
-            <div class="tl-title">Doctoral Lecturer, EconomiX Laboratory, University of Paris Nanterre, Paris, France</div>
-            <div class="tl-meta">Jan 2023 to Jan 2025</div>
-          </li>
-          <li>
-            <div class="tl-title">Research Assistant, University of Western Australia, Western Australia, Australia</div>
-            <div class="tl-meta">Jan 2018 to Jan 2019, under supervision of Prof. Timothy Colmer</div>
-          </li>
-          <li>
-            <div class="tl-title">Researcher, Department of Planning and Investment, Faculty of Economics and Rural Development, Vietnam National University of Agriculture, Hanoi, Vietnam</div>
-            <div class="tl-meta">Apr 2015 to Dec 2017</div>
-          </li>
-          <li>
-            <div class="tl-title">IELTS Preparation Tutor, part time</div>
-            <div class="tl-meta">Jun 2015 to Dec 2017</div>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Academic qualification</h3>
-        <ul class="timeline">
-          <li>
-            <div class="tl-title">Qualification for Associate Professor (<em>Maître de conférences</em>) — Section 5: Economics Science<br/><span class="muted small">Issued by the French National Council of Universities (CNU), France</span></div>
-            <div class="tl-meta">March 2026</div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════ RESEARCH ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-research" role="tabpanel" aria-labelledby="tab-research" data-panel="research">
-      <h2>Research</h2>
-
-      <div class="card">
-        <h3>Research interests</h3>
-        <ul class="pills">
-          <li>Behavioral Economics</li>
-          <li>Consumer Behavior</li>
-          <li>Microeconometrics</li>
-          <li>Experimental Economics</li>
-          <li>Empirical Industrial Organization</li>
-          <li>Economic Development and Sustainability</li>
-          <li>Efficiency and Productivity</li>
-          <li>Agricultural Economics</li>
-          <li>Policy Evaluation</li>
-          <li>Environmental Economics</li>
-          <li>Production Economics</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Doctoral thesis</h3>
-        <p class="tight"><strong>Individual Preferences and Organic Adoption Decisions in Uncertain Contexts</strong></p>
-        <p class="muted tight">University of Paris Nanterre, EconomiX. Supervisor: Prof. Phu Nguyen-Van (Research Director, CNRS)</p>
-        <p class="muted tight" style="margin-top:8px;"><strong>Jury:</strong> Anne Stenger-Letheux (BETA, Université de Strasbourg) · Angela Sutan (ESSEC Business School) · Phu Nguyen-Van (CNRS, Paris Nanterre) · Eric Darmon (Paris Nanterre) · Marc Willinger (CEE-M, Université de Montpellier)</p>
-      </div>
-
-      <div class="card">
-        <h3>MSc thesis</h3>
-        <p class="tight"><strong>Determinants of farmer's selection on adaptive measures to climate change: Evidence from mountainous areas, Vietnam</strong></p>
-        <p class="muted tight">University of Western Australia. Supervisor: Prof. David Pannell</p>
-      </div>
-
-      <div class="card">
-        <h3>Methods and topics</h3>
-        <ul>
-          <li>Survey design, field data collection, and survey experiments</li>
-          <li>Applied econometrics, including panel data and policy evaluation designs</li>
-          <li>Experiments in controlled settings and in field contexts</li>
-          <li>Sustainability, climate adaptation, organic transition, and technology adoption</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════ PUBLICATIONS ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-publications" role="tabpanel" aria-labelledby="tab-publications" data-panel="publications">
-      <h2>Publications</h2>
-
-      <div class="card">
-        <h3>Journal articles</h3>
-        <p class="muted tight">A selection is shown below. For a complete list, please see the CV PDF.</p>
-
-        <!-- 2026 – Journal of Rural Studies -->
-        <div class="pub">
-          <div class="pub-title">Information Completeness and Farmers' Risk Preferences Promote Conversion to Organic Farming</div>
-          <div class="pub-meta">Tuan Nguyen-Anh · <em>Journal of Rural Studies</em> (2026). <a href="https://doi.org/10.1016/j.jrurstud.2026.104013" target="_blank" rel="noopener">doi:10.1016/j.jrurstud.2026.104013</a></div>
-        </div>
-
-        <!-- 2025 Agricultural Economics -->
-        <div class="pub">
-          <div class="pub-title">Do community-oriented farmers present a greater willingness for organic transition: Evidence from Vietnam</div>
-          <div class="pub-meta">Tuan Nguyen-Anh, Do Pham-Thanh, Nguyen To-The, Anh Dao-Viet · <em>Agricultural Economics</em> (2025) · <a href="https://doi.org/10.1111/agec.70055" target="_blank" rel="noopener">doi:10.1111/agec.70055</a></div>
-        </div>
-
-        <!-- 2025 Journal of Environmental Management -->
-        <div class="pub">
-          <div class="pub-title">Impact of human capital and individual traits on farmer's decision towards sustainable farming practices: A meta-analysis</div>
-          <div class="pub-meta">Tuan Nguyen-Anh, Nguyen To-The, Tuyen Tiet, Phong Nguyen-The · <em>Journal of Environmental Management</em> (2025). <a href="https://doi.org/10.1016/j.jenvman.2025.126752" target="_blank" rel="noopener">doi:10.1016/j.jenvman.2025.126752</a></div>
-        </div>
-
-        <!-- 2026 Technological Forecasting and Social Change -->
-        <div class="pub">
-          <div class="pub-title">Unveiling the Path to Industrial 4.0: Exploring Technology Adoption and Firm-Level Barriers</div>
-          <div class="pub-meta">Chinh Hoang-Duc, Tuan Nguyen-Anh, Kien Le-Hoang, Huong Nguyen-Thi-Thu, Linh Pham-Nhat, Nguyen To-The · <em>Technological Forecasting and Social Change</em> (2026) · <a href="https://doi.org/10.1016/j.techfore.2026.124563" target="_blank" rel="noopener">doi:10.1016/j.techfore.2026.124563</a></div>
-        </div>
-
-        <details class="details">
-          <summary>Show more journal articles</summary>
-
-          <!-- 2025 Public Organization Review -->
-          <div class="pub">
-            <div class="pub-title">Policy and Governance as Drivers of Enterprise Digitalization in Vietnam</div>
-            <div class="pub-meta">Linh Nguyen-Thi-Thuy, Nga Le-Thuy, Ashfaq Ahmad Shah, Le Nguyen-Truc, Trang Vo-Mai, Tuan Nguyen-Anh, Mai Dong-Thanh, Nguyen To-The, Cuong Dinh-Van, Huong Nguyen-Thi-Lan · <em>Public Organization Review</em> (2025) · <a href="https://doi.org/10.1007/s11115-025-00894-1" target="_blank" rel="noopener">doi:10.1007/s11115-025-00894-1</a></div>
-          </div>
-
-          <!-- 2024 Journal of Development Studies -->
-          <div class="pub">
-            <div class="pub-title">Give a Fish or Teach to Fish? Poverty Alleviation Effect of Government Support Policies and Self-Help Commercial Activities</div>
-            <div class="pub-meta">Chinh Hoang-Duc, Tuan Nguyen-Anh, Hang Nguyen-Thu, Vuong Vu-Tien, Thao Le-Phuong, Nguyen To-The · <em>Journal of Development Studies</em> (2024) · <a href="https://doi.org/10.1080/00220388.2024.2413082" target="_blank" rel="noopener">doi:10.1080/00220388.2024.2413082</a></div>
-          </div>
-
-          <!-- 2024 Journal of Economic Inequality -->
-          <div class="pub">
-            <div class="pub-title">Governmental support and multidimensional poverty alleviation: efficiency assessment in rural areas of Vietnam</div>
-            <div class="pub-meta">Chinh Hoang-Duc, Hang Nguyen-Thu, Tuan Nguyen-Anh, Hiep Tran-Duc, Linh Nguyen-Thi-Thuy, Phuong Do-Hoang, Nguyen To-The, Vuong Vu-Tien, Huong Nguyen-Thi-Lan · <em>The Journal of Economic Inequality</em> (2024). <a href="https://doi.org/10.1007/s10888-024-09620-1" target="_blank" rel="noopener">doi:10.1007/s10888-024-09620-1</a></div>
-          </div>
-
-          <!-- 2023 Review of Development Economics -->
-          <div class="pub">
-            <div class="pub-title">Adapting to the new normal: A sustainable livelihood framework for the informal sectors during COVID-19</div>
-            <div class="pub-meta">Tuan Nguyen-Anh, Shawn Leu, Anh Nguyen-Thi-Phuong, Thanh Ngo-Dang, Nguyen To-The · <em>Review of Development Economics</em> (2023) · <a href="https://doi.org/10.1111/rode.12974" target="_blank" rel="noopener">doi:10.1111/rode.12974</a></div>
-          </div>
-
-          <!-- 2023 Environmental Management -->
-          <div class="pub">
-            <div class="pub-title">Willingness to pay to reduce the ecological and health risks from water pollution in emerging urban regions: the case of the Red River Delta in Vietnam</div>
-            <div class="pub-meta">Nicolas Lampach, Tuyen Tiet, Nguyen To-The, Tuan Nguyen-Anh · <em>Environmental Management</em> (2023) · <a href="https://doi.org/10.1007/s00267-023-01788-y" target="_blank" rel="noopener">doi:10.1007/s00267-023-01788-y</a></div>
-          </div>
-
-          <!-- 2023 Journal of the Asia Pacific Economy -->
-          <div class="pub">
-            <div class="pub-title">Do flexible exchange rates matter for monetary autonomy?</div>
-            <div class="pub-meta">Rim Oueghlissi, Sy-Hoa Ho, Tuan Nguyen-Anh, Riadh El Ferktaji · <em>Journal of the Asia Pacific Economy</em> (2023) · <a href="https://doi.org/10.1080/13547860.2023.2287859" target="_blank" rel="noopener">doi:10.1080/13547860.2023.2287859</a></div>
-          </div>
-
-          <!-- 2022 Journal of Innovation & Knowledge -->
-          <div class="pub">
-            <div class="pub-title">Do intangible assets stimulate firm performance? Empirical evidence from Vietnamese agriculture, forestry and fishery small- and medium-sized enterprises</div>
-            <div class="pub-meta">Tuan Nguyen-Anh, Chinh Hoang-Duc, Linh Nguyen-Thi-Thuy, Vuong Vu-Tien, Uyen Nguyen-Dinh, Nguyen To-The · <em>Journal of Innovation &amp; Knowledge</em> (2022) · <a href="https://doi.org/10.1016/j.jik.2022.100194" target="_blank" rel="noopener">doi:10.1016/j.jik.2022.100194</a></div>
-          </div>
-
-          <!-- 2022 Food Policy -->
-          <div class="pub">
-            <div class="pub-title">Composite effects of human, natural and social capitals on sustainable food-crop farming in Sub-Saharan Africa</div>
-            <div class="pub-meta">Tuan Nguyen-Anh, Chinh Hoang-Duc, Tuyen Tiet-Tong, Phu Nguyen-Van, Nguyen To-The · <em>Food Policy</em> (2022). <a href="https://doi.org/10.1016/j.foodpol.2022.102284" target="_blank" rel="noopener">doi:10.1016/j.foodpol.2022.102284</a></div>
-          </div>
-
-          <!-- 2022 Current Psychology -->
-          <div class="pub">
-            <div class="pub-title">The influences of cultural values on consumers' green purchase intention in emerging markets: An evidence from South Korea and Vietnam</div>
-            <div class="pub-meta">Anh Nguyen-Thi-Phuong, Nguyen To-The, Tuan Nguyen-Anh · <em>Current Psychology</em> (2022) · <a href="https://doi.org/10.1007/s12144-022-04064-0" target="_blank" rel="noopener">doi:10.1007/s12144-022-04064-0</a></div>
-          </div>
-
-          <!-- 2022 Journal of Asia Pacific Economy -->
-          <div class="pub">
-            <div class="pub-title">Drivers of Land Use Efficiency among Ethnic Minority Groups in Vietnam: A Longitudinal Study</div>
-            <div class="pub-meta">Tuan Nguyen-Anh, Chinh Hoang-Duc, Anh Le Ngoc, Thinh Nguyen-An · <em>Journal of Asia Pacific Economy</em> (2022) · <a href="https://doi.org/10.1080/13547860.2022.2044658" target="_blank" rel="noopener">doi:10.1080/13547860.2022.2044658</a></div>
-          </div>
-
-          <!-- 2021 Land Use Policy -->
-          <div class="pub">
-            <div class="pub-title">Technical efficiency and the adoption of multiple agricultural technologies in the mountainous areas of Northern Vietnam</div>
-            <div class="pub-meta">Nicolas Lampach, Nguyen To-The, Tuan Nguyen-Anh · <em>Land Use Policy</em> (2021) · <a href="https://doi.org/10.1016/j.landusepol.2021.105289" target="_blank" rel="noopener">doi:10.1016/j.landusepol.2021.105289</a></div>
-          </div>
-
-          <!-- 2021 Regional Environmental Change -->
-          <div class="pub">
-            <div class="pub-title">Changes in the environment from perspectives of small-scale farmers in remote Vietnam</div>
-            <div class="pub-meta">Tuan Nguyen-Anh, Duy Nong, Shawn Leu, Nguyen To-The · <em>Regional Environmental Change</em> (2021) · <a href="https://doi.org/10.1007/s10113-021-01835-6" target="_blank" rel="noopener">doi:10.1007/s10113-021-01835-6</a></div>
-          </div>
-
-          <!-- 2021 JADEE -->
-          <div class="pub">
-            <div class="pub-title">Market-oriented extension and technical efficiency in small-scale maize farmers: Evidence from northern Vietnam</div>
-            <div class="pub-meta">Nguyen To-The, Tuan Nguyen-Anh · <em>Journal of Agribusiness in Developing and Emerging Economies</em> (2021) · <a href="https://doi.org/10.1108/JADEE-05-2020-0101" target="_blank" rel="noopener">doi:10.1108/JADEE-05-2020-0101</a></div>
-          </div>
-        </details>
-
-        <!-- Book -->
-        <div style="margin-top:20px;">
-          <h4 style="margin-bottom:6px;">Book</h4>
-          <div class="pub">
-            <div class="pub-title">Analysis of producers' behavior: Case study of organic tea farming households in Vietnam</div>
-            <div class="pub-meta">Nguyen To-The, Tuan Nguyen-Anh, L Truong-Do · Vietnam National University Publisher, Hanoi (2021). ISBN: 978-604-324-757-2</div>
-          </div>
-        </div>
-
-        <!-- Working papers & under review -->
-        <div style="margin-top:20px;">
-          <h4 style="margin-bottom:6px;">Working papers, under review &amp; revisions</h4>
-          <ul style="list-style-type: disc; padding-left: 1.5rem; margin-top: 4px;">
-            <li>Tuan Nguyen-Anh, Nguyen To-The (2026). "Revealed Patterns of AI Dependency in Student Writing: The Bypass Effect and Evaluative Gaps". <em>Education and Information Technologies</em> [Under review].</li>
-            <li>Tuan Nguyen-Anh (2026). "Ambiguity Dominance and the Value of Institutional Information in Organic Conversion: Evidence from Stated and Elicited Individual Preferences". <em>Food Policy</em> [Under review].</li>
-            <li>Tuan Nguyen-Anh, Phu Nguyen-Van (2026). "Exploring Farmers' Preferences in Adopting Organic Farming Under Uncertainty". <em>European Review of Agricultural Economics</em> [Under review].</li>
-            <li>Tuan Nguyen-Anh, Phu Nguyen-Van (2026). "Optimal Taxation and Rebound Effects in Agricultural Consumption". <em>Agricultural Economics</em> [Under review].</li>
-            <li>Tuan Nguyen-Anh (2026). "Planning vs. Scaling: Two-Stage Adoption of Eco-Incense in Informal Vietnamese Enterprises". <em>Environmental Management</em> [Under review].</li>
-            <li>Tuan Nguyen-Anh (2026). "The Value of Information under Ambiguity: A Theoretical and Experimental Study". <em>European Review of Agricultural Economics</em> [Under review].</li>
-            <li>Tuan Nguyen-Anh, Phu Nguyen-Van, Nguyen To-The (2025). "Farmers' Preferences and Attitudes in Conversion to Organic Farming: A Lab-in-the-Field Experiment". <em>Ecological Economics</em> [Minor revision].</li>
-            <li>Nguyen To-The, Tuan Nguyen-Anh, Linh Nguyen-Yen, Tham Nguyen-Thi-Hong, Thanh Nguyen (2025). "Digital technologies and technical efficiency: Insights from smallholder tea farmers in Tuyen-Quang province, Vietnam". <em>Journal of Agribusiness in Developing and Emerging Economies</em> [Major revision].</li>
-            <li>Tuan Nguyen-Anh, Thi Kim Cuong Pham, Anne Stenger, Jérôme Hergueux, Nguyen To-The (2026). "Conspicuous Consumption versus Conspicuous Conservation in Individual Participation to Environmental Protection Programme". Working paper.</li>
-            <li>Tuan Nguyen-Anh, Thi Kim Cuong Pham, Anne Stenger, Nguyen To-The, Elisabeth Tovar (2026). "Fairness and Acceptability in Local Climate Adaptation and Maladaptation: Evidence from a Vignette Experiment in Vietnam". Working paper.</li>
-            <li>Tuan Nguyen-Anh, Phu Nguyen-Van (2026). "Improving the effectiveness of a supportive policy to promote organic farming at farm-scale level: A Spatial Fuzzy Regression Discontinuity Design". Working paper.</li>
-          </ul>
-        </div>
-
-        <p style="margin-top:24px;">
-          <a class="btn" href="./cv.pdf" target="_blank" rel="noopener">Open CV for full publications</a>
-          <a class="btn" href="https://scholar.google.com/citations?user=jFXDZloAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a>
-        </p>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════ TEACHING ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-teaching" role="tabpanel" aria-labelledby="tab-teaching" data-panel="teaching">
-      <h2>Teaching</h2>
-
-      <div class="card">
-        <h3>DEPOCEN, CASED program, Remote</h3>
-        <p class="muted tight">Lecturer (2026)</p>
-        <ul>
-          <li><strong>Advanced Econometrics</strong>, graduate level, 24 hours/year — Linear regression, Model Specification, Regression Diagnostics, Matching and Propensity Score, Instrumental Variables, Panel Data</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>VNU University of Economics and Business, Remote</h3>
-        <p class="muted tight">Lecturer (Jan 2022 to present)</p>
-        <ul>
-          <li><strong>Microeconomics</strong>, undergraduate level, 45 hours/year — Supply and Demand, Consumer Choice, Production and Costs, Market Structures, Market Failures</li>
-          <li><strong>Econometrics</strong>, graduate level, 90 hours/year</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>University of Paris Nanterre, EconomiX Laboratory, Paris, France</h3>
-        <p class="muted tight">Doctoral Lecturer (Jan 2023 to Jan 2025)</p>
-        <ul>
-          <li><strong>Business English for Banking and Finance</strong>, master level, 24 hours/year</li>
-          <li>Teaching responsibility: full course delivery, including lectures, assessments, and student mentoring</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>VNU University of Economics and Business, Hanoi, Vietnam</h3>
-        <p class="muted tight">Full-time Lecturer, Faculty of Political Economy (Feb 2020 to Dec 2022)</p>
-        <ul>
-          <li><strong>Institutional Economics</strong>, undergraduate, 45 hours/semester</li>
-          <li><strong>Applied Statistics</strong>, undergraduate, 45 hours/semester</li>
-          <li><strong>Econometrics</strong>, undergraduate, 45 hours/semester</li>
-          <li><strong>Research Methodology</strong>, undergraduate, 45 hours/semester</li>
-          <li><strong>Microeconomics</strong>, undergraduate, 450 hours/year</li>
-          <li><strong>Agricultural Economics</strong>, undergraduate, 45 hours/semester</li>
-        </ul>
-        <p class="muted">Teaching volume: 135 hours/semester (270 hours/year)</p>
-      </div>
-
-      <div class="card">
-        <h3>IELTS Preparation Tutor, part-time</h3>
-        <p class="muted tight">Jun 2015 to Dec 2017</p>
-        <ul>
-          <li>English Proficiency, Academic Writing</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════ CONFERENCES ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-panel="conferences">
-      <h2>Conferences</h2>
-
-      <div class="card">
-        <h3>Conference presentations</h3>
-        <ul class="timeline">
-          <li>
-            <div class="tl-title">7th World Congress of Environmental and Resource Economists (WCERE 2026)<br/><span class="muted small">NOVA School of Business and Economics – NOVA SBE</span></div>
-            <div class="tl-meta">Paper: "Information and Individual Preferences under Uncertainty: Experimental Evidence from Organic Farming"</div>
-          </li>
-          <li>
-            <div class="tl-title">5th International Conference on Development Economics (ICDE 2025)<br/><span class="muted small">University of Paris Nanterre</span></div>
-            <div class="tl-meta">Paper: "Exploring Farmers' Preferences in Adopting Organic Farming Under Uncertainty"</div>
-          </li>
-          <li>
-            <div class="tl-title">30th Annual Conference of the European Association of Environmental and Resource Economists (EAERE 2025)<br/><span class="muted small">Norwegian School of Economics – NHH</span></div>
-            <div class="tl-meta">Paper: "The Role of Farmers' Preferences in Willingness to Convert to Organic Farming Under Uncertainty: A Lab-in-the-field Experiment"</div>
-          </li>
-          <li>
-            <div class="tl-title">29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE 2024)<br/><span class="muted small">CEDON Centre of Economics and Corporate Sustainability, KU Leuven</span></div>
-            <div class="tl-meta">Paper: "The roles of farmer preferences and social factors in the conversion willingness to organic farming: A lab-in-the-field experiment"</div>
-          </li>
-          <li>
-            <div class="tl-title">3rd International Symposium on Water, Ecology and Environment (ISWEE 2022)<br/><span class="muted small">Beijing Jiaotong University</span></div>
-            <div class="tl-meta">Paper: "Towards the circular economy: The role of culture in enhancing sustainable consumption in Asia"</div>
-          </li>
-          <li>
-            <div class="tl-title">2nd UDSB and International Partners' Research Conference 2021<br/><span class="muted small">University of Dundee (Scotland) and VNU University of Economics and Business (Vietnam)</span></div>
-            <div class="tl-meta">Paper: "Determinants of student's motivation to learn during the COVID-19 crisis: the case of Vietnamese universities"</div>
-          </li>
-          <li>
-            <div class="tl-title">Vietnam Economist Annual Meeting (VEAM)<br/><span class="muted small">Dalat University, Foreign Trade University, DEPOCEN, CNRS</span></div>
-            <div class="tl-meta">Paper: "Benchmarking technology in the stochastic frontier maize production of Northern Vietnam: Difference in Difference approach"</div>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Workshop organisation</h3>
-        <ul class="timeline">
-          <li>
-            <div class="tl-title">Workshop "Sustainability, Public Action, and Well-Being" 2022<br/><span class="muted small">Organised by Strasbourg University, INRAE, CNRS, VNU University of Economics and Business · Faculty of Political Economy, UEB–VNU, Ha Noi · July 18–19, 2022</span></div>
-            <div class="tl-meta">Role: Organizer and Facilitator · <a href="https://www.beta-economics.fr/evenements/workshop-sustainability-public-action-and-well-being/" target="_blank" rel="noopener">Workshop page</a></div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-projects" role="tabpanel" aria-labelledby="tab-projects" data-panel="projects">
-      <h2>Projects</h2>
-      <p class="muted">Selected projects and roles. These projects reflect experience in applied research, policy analysis, and programme evaluation.</p>
-
-      <div class="card">
-        <ul class="timeline">
-          <li>
-            <div class="tl-title">AI Engagement, Belief Formation, and Human Capital Investment: Theory and Experimental Evidence</div>
-            <div class="tl-meta">Principal Investigator (2026–2028) · ID: AEARCTR-0018436</div>
-          </li>
-          <li>
-            <div class="tl-title">Conspicuous Consumption versus Conspicuous Conservation in Individual Participation to Environmental Protection Programme</div>
-            <div class="tl-meta">Co-Principal Investigator (2026–2027), co-funded by BETA, INRAE, and VNU University of Economics and Business. Budget: 10,800 euros</div>
-          </li>
-          <li>
-            <div class="tl-title">Research and Application of WebGIS for Optimizing Production Operations and Management in Agriculture amid Digital Transformation</div>
-            <div class="tl-meta">Key Research Member (2026 to 2029), funded by the National Foundation for Science and Technology Development, Vietnam. Code: NCUD.09-2025.43</div>
-          </li>
-          <li>
-            <div class="tl-title">Environmental protection behavior, transformation and technical efficiency in agricultural production: The case of farming households in Vietnam</div>
-            <div class="tl-meta">Key Research Member (2025 to 2027), funded by the National Foundation for Science and Technology Development, Vietnam. Code: 502.01-2024.41</div>
-          </li>
-          <li>
-            <div class="tl-title">Fairness and Acceptability in Local Climate Adaptation and Maladaptation: Evidence from a Vignette Experiment in Vietnam</div>
-            <div class="tl-meta">Principal Member (2024 to 2026), co-funded by BETA, INRAE, and VNU University of Economics and Business. Budget: 5,000 euros</div>
-          </li>
-          <li>
-            <div class="tl-title">Farmers' attitudes and behaviors toward climate change adaptation: Evidence from smallholder farmers in Vietnam mountainous regions</div>
-            <div class="tl-meta">Principal Investigator (2021 to 2023), funded by VNU University of Economics and Business</div>
-          </li>
-          <li>
-            <div class="tl-title">Improving trade facilitation measures in food and agriculture in the context of COVID-19 and digital trade in South and South East Asia</div>
-            <div class="tl-meta">Consultant (Jul 2021 to Jan 2022), funded by FAO, No. TF.ESFDD.TFAA400019385</div>
-          </li>
-          <li>
-            <div class="tl-title">Analysis of agricultural products value chains and micro-finance demand in Son La, Vietnam</div>
-            <div class="tl-meta">Consultant (Jul to Aug 2021), funded by IFPRI</div>
-          </li>
-          <li>
-            <div class="tl-title">Research awareness and behavior of farmers in the Northern region to climate change</div>
-            <div class="tl-meta">Key Research Member (2019 to 2021), funded by the National Foundation for Science and Technology Development, Vietnam</div>
-          </li>
-          <li>
-            <div class="tl-title">Study on constructing a model applied high technology into agricultural production for increasing the income of farmers and accomplishing New Rural Development in Vinh Phuc province</div>
-            <div class="tl-meta">Research Member (2017 to 2018), funded by Vinh Phuc Science and Technology Department</div>
-          </li>
-          <li>
-            <div class="tl-title">Research on proposing solutions to promote production and marketing of agriculture and aquaculture sectors in Thai Binh province</div>
-            <div class="tl-meta">Research Member (2015 to 2016), funded by Thai Binh Department of Science and Technology</div>
-          </li>
-          <li>
-            <div class="tl-title">Solutions to increase collaboration and cooperation in the production and consumption of agricultural products in Vinh Phuc province, the period 2016 to 2020</div>
-            <div class="tl-meta">Research Member (2015 to 2016), funded by Vinh Phuc Department of Science and Technology</div>
-          </li>
-          <li>
-            <div class="tl-title">Study on developing the value chain of main agricultural products to promote production in Tran Yen district, Yen Bai province</div>
-            <div class="tl-meta">Research Member (2015 to 2016), funded by Yen Bai Science and Technology Department</div>
-          </li>
-          <li>
-            <div class="tl-title">Evaluation on New Rural Development program in Dak Nong province in the period 2010 to 2014 and proposing solutions to utilise all social resources</div>
-            <div class="tl-meta">Research Member (2015 to 2016), funded by Dak Nong Science and Technology Department</div>
-          </li>
-          <li>
-            <div class="tl-title">Humid tropics Household survey</div>
-            <div class="tl-meta">Enumerator (Dec 2014 to Jan 2015), funded by ILRI, CGIAR</div>
-          </li>
-          <li>
-            <div class="tl-title">Towards more profitable and sustainable vegetable farming systems in north western Vietnam, AGB/2012/059</div>
-            <div class="tl-meta">Enumerator (Mar 2014 to Apr 2014), funded by ACIAR</div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════ SERVICE ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-service" role="tabpanel" aria-labelledby="tab-service" data-panel="service">
-      <h2>Service</h2>
-
-      <div class="card">
-        <h3>Professional leadership</h3>
-        <ul class="timeline">
-          <li>
-            <div class="tl-title">Communications Manager, International Society of Vietnam Economists (ISVE)</div>
-            <div class="tl-meta">Jan 2026 to present · <a href="https://ivse.net" target="_blank" rel="noopener">ivse.net</a> · <a href="https://www.facebook.com/InternationalSocietyVietnamEconomists" target="_blank" rel="noopener">Facebook</a></div>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Journal peer review</h3>
-        <table style="width:100%;border-collapse:collapse;">
-          <thead>
-            <tr style="text-align:left;border-bottom:1px solid var(--border,#e2e8f0);">
-              <th style="padding:6px 8px;font-weight:600;">Journal</th>
-              <th style="padding:6px 8px;font-weight:600;">Role</th>
-              <th style="padding:6px 8px;font-weight:600;">Papers reviewed</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td style="padding:6px 8px;">Australian Journal of Agricultural and Resource Economics</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">1</td></tr>
-            <tr><td style="padding:6px 8px;">Environmental and Resources Economics</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">2</td></tr>
-            <tr><td style="padding:6px 8px;">Annals of Public and Cooperative Economics</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">1</td></tr>
-            <tr><td style="padding:6px 8px;">Review of Development Economics</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">3</td></tr>
-            <tr><td style="padding:6px 8px;">Journal of Agribusiness in Developing and Emerging Economies</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">2</td></tr>
-            <tr><td style="padding:6px 8px;">Sustainable Development</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">2</td></tr>
-            <tr><td style="padding:6px 8px;">Agricultural and Food Economics</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">1</td></tr>
-            <tr><td style="padding:6px 8px;">Climate and Development</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">1</td></tr>
-            <tr><td style="padding:6px 8px;">Energy Nexus</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">1</td></tr>
-            <tr><td style="padding:6px 8px;">Environment, Development and Sustainability</td><td style="padding:6px 8px;">Peer reviewer</td><td style="padding:6px 8px;">2</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-skills" role="tabpanel" aria-labelledby="tab-skills" data-panel="skills">
-      <h2>Skills</h2>
-
-      <div class="grid2">
-        <div class="card">
-          <h3>Programming and data</h3>
-          <ul>
-            <li>Python, expert</li>
-            <li>R, expert</li>
-            <li>Stata, expert</li>
-            <li>MATLAB, proficient</li>
-            <li>Flask, advanced</li>
-            <li>oTree, advanced</li>
-            <li>SPSS, advanced</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Writing and tools</h3>
-          <ul>
-            <li>LaTeX, expert</li>
-            <li>Microsoft Office, expert</li>
-            <li>Qualtrics, expert</li>
-            <li>LimeSurvey, advanced</li>
-            <li>SurveyMonkey, advanced</li>
-            <li>Blackboard, proficient</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Languages</h3>
-        <ul>
-          <li><strong>English</strong> — Level C1</li>
-          <li><strong>French</strong> — Level A2</li>
-          <li><strong>Vietnamese</strong> — Native</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
-    <section class="panel hidden" id="panel-contact" role="tabpanel" aria-labelledby="tab-contact" data-panel="contact">
-      <h2>Contact</h2>
-
-      <div class="grid2">
-        <div class="card">
-          <h3>Email</h3>
-          <p class="tight"><a href="mailto:tuannguyen.ueb@vnu.edu.vn">tuannguyen.ueb@vnu.edu.vn</a></p>
-          <p class="muted tight">ORCID: <a href="https://orcid.org/0000-0001-8285-9908" target="_blank" rel="noopener">0000-0001-8285-9908</a></p>
-        </div>
-
-        <div class="card">
-          <h3>Profiles</h3>
-          <ul>
-            <li><a href="https://scholar.google.com/citations?user=jFXDZloAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
-            <li><a href="https://www.linkedin.com/in/tuan-nguyen-anh-2b5825125/" target="_blank" rel="noopener">LinkedIn</a></li>
-            <li><a href="https://orcid.org/0000-0001-8285-9908" target="_blank" rel="noopener">ORCID</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>References</h3>
-        <div class="grid2">
-          <div>
-            <p class="tight"><strong>Prof. Phu Nguyen-Van</strong></p>
-            <p class="muted tight">Directeur de Recherche, University of Paris Nanterre<br/>French Centre National de la Recherche Scientifique</p>
-          </div>
-          <div>
-            <p class="tight"><strong>Prof. Cuong Le-Van</strong></p>
-            <p class="muted tight">Emeritus Professor, Paris School of Economics<br/>French Centre National de la Recherche Scientifique</p>
-          </div>
-          <div>
-            <p class="tight"><strong>Prof. Anne Stenger</strong></p>
-            <p class="muted tight">Directrice de recherche, INRA-BETA<br/>Université de Strasbourg</p>
-          </div>
-          <div>
-            <p class="tight"><strong>Prof. Eric Darmon</strong></p>
-            <p class="muted tight">Professor in Economics, Department of Economics<br/>University of Paris Nanterre</p>
-          </div>
-        </div>
-        <p class="muted small" style="margin-top:10px;">Contact details available on request or in the CV PDF.</p>
-      </div>
-
-      <p class="muted small">For phone number and full address, please see the CV PDF.</p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <span>© <span id="y"></span> NGUYEN Anh-Tuan</span>
-      <span class="muted">•</span>
-      <a href="./cv.pdf" target="_blank" rel="noopener">CV</a>
+    <div class="hero-right">
+      <img class="headshot" src="assets/headshot.jpg" alt="Portrait photo of NGUYEN Anh-Tuan" loading="eager" />
     </div>
-  </footer>
+  </div>
 
-  <script>
-    const tabs = Array.from(document.querySelectorAll(".tab"));
-    const panels = Array.from(document.querySelectorAll(".panel"));
+  <nav class="tabs" aria-label="Site sections">
+    <div class="container tabs-inner" role="tablist">
+      <button class="tab" role="tab" aria-selected="true"  aria-controls="panel-about"         id="tab-about"         data-tab="about">About</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-employment"    id="tab-employment"    data-tab="employment">Employment</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-research"      id="tab-research"      data-tab="research">Research</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-publications"  id="tab-publications"  data-tab="publications">Publications</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-teaching"      id="tab-teaching"      data-tab="teaching">Teaching</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-conferences"   id="tab-conferences"   data-tab="conferences">Conferences</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-projects"      id="tab-projects"      data-tab="projects">Projects</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-service"       id="tab-service"       data-tab="service">Service</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-skills"        id="tab-skills"        data-tab="skills">Skills</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-contact"       id="tab-contact"       data-tab="contact">Contact</button>
+    </div>
+  </nav>
+</header>
 
-    function activate(name, pushHash = true) {
-      tabs.forEach(t => {
-        const on = t.dataset.tab === name;
-        t.classList.toggle("active", on);
-        t.setAttribute("aria-selected", on ? "true" : "false");
-      });
+<main class="container">
 
-      panels.forEach(p => {
-        const on = p.dataset.panel === name;
-        p.classList.toggle("hidden", !on);
-      });
+  <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+  <section class="panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" data-panel="about">
+    <h2>About</h2>
+    <p>I am an economist working at the intersection of behavioral economics, experimental economics, agricultural economics, environmental economics, development economics and microeconometrics. My research studies how people make decisions when information is incomplete, risks are difficult to assess, and social and institutional contexts shape what is feasible. I focus on sustainable choices and technology adoption, with a particular interest in agriculture and rural economies.</p>
+    <p>I earned a PhD in Economics from the lab EconomiX, University of Paris Nanterre, under the supervision of Prof. Phu Nguyen-Van (Research Director, CNRS). My doctoral thesis, <em>"Individual Preferences and Organic Adoption Decisions in Uncertain Contexts"</em>, examined how risk and ambiguity preferences, time preference, information completeness, and government interventions influence farmers' willingness to adopt organic practices. In March 2026, I received the Qualification for the position of Associate Professor (<em>Maître de conférences</em>), Section 5 – Economics Science, issued by the French National Council of Universities (CNU).</p>
+    <p>Methodologically, I combine econometric analysis with survey and experimental approaches. I work with observational and panel data, policy evaluation designs, and experiments conducted with real decision makers, often in field settings. Alongside research, I teach econometrics and quantitative methods at graduate and undergraduate levels, with an emphasis on clear identification, transparent inference, and communication that supports decision making.</p>
+    
+    <div class="grid2">
+      <div class="card">
+        <h3>Affiliations</h3>
+        <ul>
+          <li><strong>EconomiX</strong>, University of Paris Nanterre, France — Associate Researcher (Dec 2025 – Current)</li>
+          <li><strong>SciencesPo</strong>, Department of Economics, Le Havre — Lecturer (Aug 2026 – Aug 2027)</li>
+          <li><strong>VNU University of Economics and Business</strong>, Vietnam — Lecturer (Feb 2020 – present)</li>
+          <li><strong>International Society of Vietnam Economists (ISVE)</strong> — Communications Manager (Jan 2026 – present)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Education</h3>
+        <ul>
+          <li><strong>PhD</strong>, Economics, University of Paris Nanterre, France (Nov 2022 – Dec 2025)<br/><span class="muted small">Supervisor: Prof. Phu Nguyen-Van</span></li>
+          <li><strong>MSc</strong>, Agricultural, Resource and Environmental Economics, University of Western Australia (Jan 2018 – Dec 2019)<br/><span class="muted small">Supervisor: Prof. David Pannell</span></li>
+          <li><strong>BSc (Hons)</strong>, AgriBusiness Administration, Vietnam National University of Agriculture (Sep 2010 – Nov 2014)<br/><span class="muted small">Advanced Training Program with UW-Madison</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Research metrics</h3>
+      <ul style="display:flex;gap:2rem;list-style:none;padding:0;flex-wrap:wrap;">
+        <li><strong style="font-size:1.4rem;">12</strong><br/><span class="muted small">H-Index</span></li>
+        <li><a href="https://orcid.org/0000-0001-8285-9908" target="_blank" rel="noopener"><strong>ORCID</strong></a><br/><span class="muted small">0000-0001-8285-9908</span></li>
+        <li><a href="https://scholar.google.com/citations?user=jFXDZloAAAAJ&hl=en" target="_blank" rel="noopener"><strong>Google Scholar</strong></a><br/><span class="muted small">Full publication list</span></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Selected scholarships &amp; awards</h3>
+      <ul>
+        <li><strong>Vietnam National University Certificate for Scientific Research and Innovation</strong>, 2021–2025</li>
+        <li><strong>France Excellence Scholarship</strong>, November 2022 – November 2025</li>
+        <li><strong>Australia Awards Scholarship</strong>, January 2018 – December 2019</li>
+      </ul>
+    </div>
+  </section>
 
-      if (pushHash) {
-        history.replaceState(null, "", "#" + name);
-      }
+  <!-- ═══════════════════════════ EMPLOYMENT ═══════════════════════════ -->
+  <section class="panel hidden" id="panel-employment" role="tabpanel" aria-labelledby="tab-employment" data-panel="employment">
+    <h2>Employment</h2>
+    <div class="card">
+      <ul class="timeline">
+        <li><div class="tl-title">Lecturer, Department of Economics, SciencesPo, Le Havre, France</div><div class="tl-meta">August 2026 – August 2027</div></li>
+        <li><div class="tl-title">Associate Researcher, EconomiX Laboratory, University of Paris Nanterre, Paris, France</div><div class="tl-meta">December 2025 – Current</div></li>
+        <li><div class="tl-title">Lecturer, Faculty of Political Economy, VNU University of Economics and Business, Hanoi, Vietnam</div><div class="tl-meta">February 2020 – Present</div></li>
+        <li><div class="tl-title">Doctoral Lecturer, EconomiX Laboratory, University of Paris Nanterre, Paris, France</div><div class="tl-meta">January 2023 – January 2025</div></li>
+        <li><div class="tl-title">Research Assistant, University of Western Australia, Australia</div><div class="tl-meta">January 2018 – January 2019 (Supervisor: Prof. Timothy Colmer)</div></li>
+        <li><div class="tl-title">Researcher, Vietnam National University of Agriculture, Hanoi</div><div class="tl-meta">April 2015 – December 2017</div></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Academic qualification</h3>
+      <ul class="timeline">
+        <li><div class="tl-title">Qualification for Associate Professor (<em>Maître de conférences</em>) — Section 5: Economics Science<br/><span class="muted small">French National Council of Universities (CNU), France</span></div><div class="tl-meta">March 2026</div></li>
+      </ul>
+    </div>
+  </section>
 
-      const panel = document.querySelector(`[data-panel="${name}"]`);
-      if (panel) panel.scrollIntoView({behavior: "smooth", block: "start"});
-    }
+  <!-- ═══════════════════════════ RESEARCH ═══════════════════════════ -->
+  <section class="panel hidden" id="panel-research" role="tabpanel" aria-labelledby="tab-research" data-panel="research">
+    <h2>Research</h2>
+    <div class="card"><h3>Research interests</h3><ul class="pills"><li>Behavioral Economics</li><li>Consumer Behavior</li><li>Microeconometrics</li><li>Experimental Economics</li><li>Empirical Industrial Organization</li><li>Economic Development and Sustainability</li><li>Efficiency and Productivity</li><li>Agricultural Economics</li><li>Policy Evaluation</li><li>Environmental Economics</li></ul></div>
+    <div class="card"><h3>Doctoral thesis</h3><p class="tight"><strong>Individual Preferences and Organic Adoption Decisions in Uncertain Contexts</strong></p><p class="muted tight">University of Paris Nanterre, EconomiX. Supervisor: Prof. Phu Nguyen-Van (CNRS)</p><p class="muted tight" style="margin-top:8px;"><strong>Jury:</strong> Anne Stenger-Letheux (BETA, Strasbourg) · Angela Sutan (ESSEC) · Phu Nguyen-Van (CNRS) · Eric Darmon (Paris Nanterre) · Marc Willinger (CEE-M, Montpellier)</p></div>
+    <div class="card"><h3>MSc thesis</h3><p class="tight"><strong>Determinants of farmer's selection on adaptive measures to climate change: Evidence from mountainous areas, Vietnam</strong></p><p class="muted tight">University of Western Australia. Supervisor: Prof. David Pannell</p></div>
+  </section>
 
-    document.querySelectorAll("[data-tab-link]").forEach(a => {
-      a.addEventListener("click", (e) => {
-        const name = a.getAttribute("data-tab-link");
-        if (name) {
-          e.preventDefault();
-          activate(name);
-        }
-      });
-    });
+  <!-- ═══════════════════════════ PUBLICATIONS (updated per CV 2026) ═══════════════════════════ -->
+  <section class="panel hidden" id="panel-publications" role="tabpanel" aria-labelledby="tab-publications" data-panel="publications">
+    <h2>Publications</h2>
+    <div class="card">
+      <h3>Journal articles</h3>
+      <div class="pub"><div class="pub-title">Farmers' Preferences and Attitudes in Conversion to Organic Farming: A Lab-in-the-Field Experiment</div><div class="pub-meta">Tuan Nguyen-Anh, Phu Nguyen-Van, Nguyen To-The · <em>Ecological Economics</em> (2026) · [Accepted]</div></div>
+      <div class="pub"><div class="pub-title">Information Completeness and Farmers' Risk Preferences Promote Conversion to Organic Farming</div><div class="pub-meta">Tuan Nguyen-Anh · <em>Journal of Rural Studies</em> (2026) · <a href="https://doi.org/10.1016/j.jrurstud.2026.104013" target="_blank">doi:10.1016/j.jrurstud.2026.104013</a></div></div>
+      <div class="pub"><div class="pub-title">Do community-oriented farmers present a greater willingness for organic transition: Evidence from Vietnam</div><div class="pub-meta">Tuan Nguyen-Anh, Do Pham-Thanh, Nguyen To-The, Anh Dao-Viet · <em>Agricultural Economics</em> (2025) · <a href="https://doi.org/10.1111/agec.70055" target="_blank">doi:10.1111/agec.70055</a></div></div>
+      <div class="pub"><div class="pub-title">Impact of human capital and individual traits on farmer's decision towards sustainable farming practices: A meta-analysis</div><div class="pub-meta">Tuan Nguyen-Anh, Nguyen To-The, Tuyen Tiet, Phong Nguyen-The · <em>Journal of Environmental Management</em> (2025) · <a href="https://doi.org/10.1016/j.jenvman.2025.126752" target="_blank">doi:10.1016/j.jenvman.2025.126752</a></div></div>
+      <div class="pub"><div class="pub-title">Unveiling the path to the fourth industrial revolution: Exploring technology adoption and firm-level barriers</div><div class="pub-meta">Chinh Hoang-Duc, Tuan Nguyen-Anh, Kien Hoang-Le, Linh Nguyen-Thi-Thuy, Huong Nguyen-Thi-Lan, Uyen Nguyen-Dinh, Nguyen To-The · <em>Technological Forecasting & Social Change</em> (2026) · <a href="https://doi.org/10.1016/j.techfore.2026.124563" target="_blank">doi:10.1016/j.techfore.2026.124563</a></div></div>
+      <details class="details">
+        <summary>Show more journal articles</summary>
+        <div class="pub"><div class="pub-title">Policy and Governance as Drivers of Enterprise Digitalization in Vietnam</div><div class="pub-meta">Linh Nguyen-Thi-Thuy, Nga Le-Thuy, Ashfaq Ahmad Shah, Le Nguyen-Truc, Trang Vo-Mai, Tuan Nguyen-Anh, Mai Dong-Thanh, Nguyen To-The, Cuong Dinh-Van, Huong Nguyen-Thi-Lan · <em>Public Organization Review</em> (2025) · doi:10.1007/s11115-025-00894-1</div></div>
+        <div class="pub"><div class="pub-title">Give a Fish or Teach to Fish? Poverty Alleviation Effect of Government Support Policies and Self-Help Commercial Activities</div><div class="pub-meta">Chinh Hoang-Duc, Tuan Nguyen-Anh, Hang Nguyen-Thu, Vuong Vu-Tien, Thao Le-Phuong, Nguyen To-The · <em>Journal of Development Studies</em> (2024) · doi:10.1080/00220388.2024.2413082</div></div>
+        <div class="pub"><div class="pub-title">Governmental support and multidimensional poverty alleviation: efficiency assessment in rural areas of Vietnam</div><div class="pub-meta">Chinh Hoang-Duc, Hang Nguyen-Thu, Tuan Nguyen-Anh, Hiep Tran-Duc, Linh Nguyen-Thi-Thuy, Phuong Do-Hoang, Nguyen To-The, Vuong Vu-Tien, Huong Nguyen-Thi-Lan · <em>The Journal of Economic Inequality</em> (2024) · doi:10.1007/s10888-024-09620-1</div></div>
+        <div class="pub"><div class="pub-title">Adapting to the new normal: A sustainable livelihood framework for the informal sectors during COVID-19</div><div class="pub-meta">Tuan Nguyen-Anh, Shawn Leu, Anh Nguyen-Thi-Phuong, Thanh Ngo-Dang, Nguyen To-The · <em>Review of Development Economics</em> (2023) · doi:10.1111/rode.12974</div></div>
+        <div class="pub"><div class="pub-title">Willingness to pay to reduce the ecological and health risks from water pollution in emerging urban regions: the case of the Red River Delta in Vietnam</div><div class="pub-meta">Nicolas Lampach, Tuyen Tiet, Nguyen To-The, Tuan Nguyen-Anh · <em>Environmental Management</em> (2023) · doi:10.1007/s00267-023-01788-y</div></div>
+        <div class="pub"><div class="pub-title">Do flexible exchange rates matter for monetary autonomy?</div><div class="pub-meta">Rim Oueghlissi, Hoa Ho-Sy, Tuan Nguyen-Anh, Riadh El-Ferktaji · <em>Journal of the Asia Pacific Economy</em> (2023) · doi:10.1080/13547860.2023.2287859</div></div>
+        <div class="pub"><div class="pub-title">Do intangible assets stimulate firm performance? Empirical evidence from Vietnamese agriculture, forestry and fishery SMEs</div><div class="pub-meta">Tuan Nguyen-Anh, Chinh Hoang-Duc, Linh Nguyen-Thi-Thuy, Vuong Vu-Tien, Uyen Nguyen-Dinh, Nguyen To-The · <em>Journal of Innovation & Knowledge</em> (2022) · doi:10.1016/j.jik.2022.100194</div></div>
+        <div class="pub"><div class="pub-title">Composite effects of human, natural and social capitals on sustainable food-crop farming in Sub-Saharan Africa</div><div class="pub-meta">Tuan Nguyen-Anh, Chinh Hoang-Duc, Tuyen Tiet-Tong, Phu Nguyen-Van, Nguyen To-The · <em>Food Policy</em> (2022) · doi:10.1016/j.foodpol.2022.102284</div></div>
+        <div class="pub"><div class="pub-title">The influences of cultural values on consumers' green purchase intention in emerging markets: Evidence from South Korea and Vietnam</div><div class="pub-meta">Anh Nguyen-Thi-Phuong, Nguyen To-The, Tuan Nguyen-Anh · <em>Current Psychology</em> (2022) · doi:10.1007/s12144-022-04064-0</div></div>
+        <div class="pub"><div class="pub-title">Drivers of Land Use Efficiency among Ethnic Minority Groups in Vietnam: A Longitudinal Study</div><div class="pub-meta">Tuan Nguyen-Anh, Chinh Hoang-Duc, Anh Le-Ngoc, Thinh Nguyen-An · <em>Journal of Asia Pacific Economy</em> (2022) · doi:10.1080/13547860.2022.2044658</div></div>
+        <div class="pub"><div class="pub-title">Technical efficiency and the adoption of multiple agricultural technologies in the mountainous areas of Northern Vietnam</div><div class="pub-meta">Nicolas Lampach, Nguyen To-The, Tuan Nguyen-Anh · <em>Land Use Policy</em> (2021) · doi:10.1016/j.landusepol.2021.105289</div></div>
+        <div class="pub"><div class="pub-title">Changes in the environment from perspectives of small-scale farmers in remote Vietnam</div><div class="pub-meta">Tuan Nguyen-Anh, Duy Nong, Shawn Leu, Nguyen To-The · <em>Regional Environmental Change</em> (2021) · doi:10.1007/s10113-021-01835-6</div></div>
+      </details>
+      <h4 style="margin:1rem 0 0.5rem;">Book</h4>
+      <div class="pub"><div class="pub-title">Analysis of producers' behavior: Case study of organic tea farming households in Vietnam</div><div class="pub-meta">Nguyen To-The, Tuan Nguyen-Anh, Lam Truong-Do · Vietnam National University Publisher (2021). ISBN: 978-604-324-757-2</div></div>
 
-    tabs.forEach(t => t.addEventListener("click", () => activate(t.dataset.tab)));
+      <h4 style="margin:1.5rem 0 0.5rem;">Under review, revision & submitted</h4>
+      <ul style="list-style-type: disc; padding-left: 1.5rem;">
+        <li>Tuan Nguyen-Anh (2026). "Irreversible Thresholds and the Collapse of Marginal Deterrence". <em>Journal of Economic Theory</em> [Submitted].</li>
+        <li>Tuan Nguyen-Anh, Nguyen To-The (2026). "Revealed Patterns of AI Dependency in Student Writing: The Bypass Effect and Evaluative Gaps". <em>Journal of Computer Assisted Learning</em> [Under review].</li>
+        <li>Tuan Nguyen-Anh (2026). "Ambiguity Dominance and the Value of Institutional Information in Organic Conversion". <em>Food Policy</em> [Under review].</li>
+        <li>Tuan Nguyen-Anh, Phu Nguyen-Van (2026). "Exploring Farmers' Preferences in Adopting Organic Farming Under Uncertainty". <em>European Review of Agricultural Economics</em> [Under review].</li>
+        <li>Tuan Nguyen-Anh, Phu Nguyen-Van (2026). "Optimal Taxation and Rebound Effects in Agricultural Consumption". <em>Agricultural Economics</em> [Under review].</li>
+        <li>Tuan Nguyen-Anh (2026). "Planning vs. Scaling: Two-Stage Adoption of Eco-Incense in Informal Vietnamese Enterprises". <em>Environment, Development and Sustainability</em> [Under review].</li>
+        <li>Tuan Nguyen-Anh (2026). "The Value of Information under Ambiguity: A Theoretical and Experimental Study". <em>Journal of Agricultural Economics</em> [Under review].</li>
+        <li>Nguyen To-The, Tuan Nguyen-Anh, Linh Nguyen-Yen, Tham Nguyen-Thi-Hong, Thanh Nguyen (2025). "Digital technologies and technical efficiency: Insights from smallholder tea farmers". <em>Journal of Agribusiness in Developing and Emerging Economies</em> [Major revision].</li>
+      </ul>
+      <h4 style="margin:1rem 0 0.5rem;">Working papers</h4>
+      <ul style="list-style-type: disc; padding-left: 1.5rem;">
+        <li>Tuan Nguyen-Anh, Cuong Le-Van (2026). "Corruption and Penalty: Theory and Evidence from Public Procurement". Working paper.</li>
+        <li>Tuan Nguyen-Anh, Thi Kim Cuong Pham, Anne Stenger, Jerome Hergueux, Nguyen To-The (2026). "Conspicuous Consumption versus Conspicuous Conservation in Individual Participation to Environmental Protection Programme". Working paper.</li>
+        <li>Tuan Nguyen-Anh, Thi Kim Cuong Pham, Anne Stenger, Nguyen To-The, Elisabeth Tovar (2026). "Fairness and Acceptability in Local Climate Adaptation and Maladaptation". Working paper.</li>
+        <li>Tuan Nguyen-Anh, Phu Nguyen-Van (2026). "Improving the effectiveness of a supportive policy to promote organic farming: A Spatial Fuzzy Regression Discontinuity Design". Working paper.</li>
+      </ul>
+      <p style="margin-top:24px;"><a class="btn" href="./cv.pdf" target="_blank">Open CV for full list</a> <a class="btn" href="https://scholar.google.com/citations?user=jFXDZloAAAAJ" target="_blank">Google Scholar</a></p>
+    </div>
+  </section>
 
-    const initial = (location.hash || "#about").replace("#", "");
-    const exists = tabs.some(t => t.dataset.tab === initial);
-    activate(exists ? initial : "about", false);
+  <!-- TEACHING, CONFERENCES, PROJECTS, SERVICE, SKILLS, CONTACT (trimmed but kept fully updated) -->
+  <section class="panel hidden" id="panel-teaching" role="tabpanel" aria-labelledby="tab-teaching" data-panel="teaching"><h2>Teaching</h2>
+    <div class="card"><h3>SciencesPo (Department of Economics) – Lecturer (Aug 2026 – Aug 2027)</h3><p class="muted">Undergraduate/Graduate level courses in Economics (detail TBD).</p></div>
+    <div class="card"><h3>DEPOCEN, CASED program – Lecturer (2026)</h3><ul><li>Advanced Econometrics (Graduate, 24h/year): linear regression, matching, IV, panel data.</li></ul></div>
+    <div class="card"><h3>VNU University of Economics and Business – Lecturer (Jan 2022 – present)</h3><ul><li>Microeconomics (undergraduate, 45h/year)</li><li>Econometrics (graduate, 90h/year)</li></ul></div>
+    <div class="card"><h3>University of Paris Nanterre – Doctoral Lecturer (Jan 2023 – Jan 2025)</h3><ul><li>Business English for Banking and Finance (Master level, 24h/year)</li></ul></div>
+    <div class="card"><h3>VNU University of Economics and Business – Full-time Lecturer (Feb 2020 – Dec 2022)</h3><ul><li>Institutional Economics, Applied Statistics, Econometrics, Microeconomics, Agricultural Economics (270h/year).</li></ul></div>
+  </section>
 
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
+  <section class="panel hidden" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-panel="conferences"><h2>Conferences</h2>
+    <div class="card"><h3>Selected presentations</h3><ul class="timeline"><li><div class="tl-title">WCERE 2026 (NOVA SBE)</div><div class="tl-meta">"Information and Individual Preferences under Uncertainty"</div></li><li><div class="tl-title">EAERE 2025 (NHH Norwegian School of Economics)</div><div class="tl-meta">"The Role of Farmers' Preferences in Willingness to Convert to Organic Farming"</div></li><li><div class="tl-title">EAERE 2024 (KU Leuven)</div><div class="tl-meta">"Farmer preferences and social factors in organic conversion"</div></li><li><div class="tl-title">Vietnam Economist Annual Meeting (VEAM) & others</div><div class="tl-meta">Presentations on efficiency, technology adoption, and climate adaptation.</div></li></ul></div>
+    <div class="card"><h3>Workshop organisation</h3><div class="tl-title">"Sustainability, Public Action, and Well-Being" 2022 (Strasbourg University, INRAE, CNRS, VNU UEB) – Organizer and Facilitator.</div></div>
+  </section>
+
+  <section class="panel hidden" id="panel-projects" role="tabpanel" aria-labelledby="tab-projects" data-panel="projects"><h2>Projects</h2><div class="card"><ul class="timeline"><li><div class="tl-title">AI Engagement, Belief Formation, and Human Capital Investment (PI, 2026–2028, AEARCTR-0018436)</div></li><li><div class="tl-title">Conspicuous Consumption vs. Conservation (Co-PI, 2026–2027, BETA/INRAE – €10,800)</div></li><li><div class="tl-title">WebGIS for Optimizing Agriculture (Key member, 2026–2029, NAFOSTED)</div></li><li><div class="tl-title">Environmental protection & technical efficiency (Key member, 2025–2027, NAFOSTED)</div></li><li><div class="tl-title">Fairness and Acceptability in Climate Adaptation (Principal member, 2024–2026, €5,000)</div></li><li><div class="tl-title">Farmers' attitudes toward climate change (PI, 2021–2023, VNU-UEB)</div></li><li><div class="tl-title">FAO trade facilitation & IFPRI value chains (Consultant roles, 2021)</div></li><li><div class="tl-title">Enumerator for ACIAR, ILRI (CGIAR) projects (2014–2015)</div></li></ul></div></section>
+
+  <section class="panel hidden" id="panel-service" role="tabpanel" aria-labelledby="tab-service" data-panel="service"><h2>Service</h2><div class="card"><h3>Professional leadership</h3><p>Communications Manager, International Society of Vietnam Economists (ISVE) – Jan 2026–present.</p><h3>Peer reviewer</h3><table><thead><tr><th>Journal</th><th>Papers reviewed</th></tr></thead><tbody><tr><td>Environmental and Resources Economics</td><td>2</td></tr><tr><td>Australian Journal of Agricultural and Resource Economics</td><td>1</td></tr><tr><td>Annals of Public and Cooperative Economics</td><td>1</td></tr><tr><td>Review of Development Economics</td><td>3</td></tr><tr><td>Journal of Agribusiness in Developing and Emerging Economies</td><td>2</td></tr><tr><td>Sustainable Development</td><td>2</td></tr><tr><td>Agricultural and Food Economics</td><td>1</td></tr><tr><td>Climate and Development</td><td>1</td></tr><tr><td>Environment, Development and Sustainability</td><td>3</td></tr><tr><td>Energy Nexus</td><td>1</td></tr></tbody></table></div></section>
+
+  <section class="panel hidden" id="panel-skills" role="tabpanel" aria-labelledby="tab-skills" data-panel="skills"><h2>Skills</h2><div class="grid2"><div class="card"><h3>Programming & data</h3><ul><li>Python (expert), R (expert), Stata (expert), MATLAB (proficient), Flask (advanced), oTree (advanced), SPSS (advanced)</li></ul></div><div class="card"><h3>Writing & tools</h3><ul><li>LaTeX (expert), MS Office (expert), Qualtrics (expert), LimeSurvey/SurveyMonkey (advanced), Blackboard (proficient)</li></ul></div></div><div class="card"><h3>Languages</h3><ul><li>English (C1), French (A2), Vietnamese (Native)</li></ul></div></section>
+
+  <section class="panel hidden" id="panel-contact" role="tabpanel" aria-labelledby="tab-contact" data-panel="contact"><h2>Contact</h2><div class="grid2"><div class="card"><h3>Email</h3><p><a href="mailto:tuannguyen.ueb@vnu.edu.vn">tuannguyen.ueb@vnu.edu.vn</a></p><p>ORCID: 0000-0001-8285-9908</p></div><div class="card"><h3>Profiles</h3><ul><li><a href="https://scholar.google.com/citations?user=jFXDZloAAAAJ" target="_blank">Google Scholar</a></li><li><a href="https://www.linkedin.com/in/tuan-nguyen-anh-2b5825125/" target="_blank">LinkedIn</a></li></ul></div></div><div class="card"><h3>References</h3><div class="grid2"><div><p class="tight"><strong>Prof. Phu Nguyen-Van</strong></p><p class="muted tight">CNRS, Paris Nanterre</p></div><div><p class="tight"><strong>Prof. Anne Stenger</strong></p><p class="muted tight">INRA-BETA, Strasbourg</p></div><div><p class="tight"><strong>Prof. Cuong Le-Van</strong></p><p class="muted tight">PSE, CNRS</p></div><div><p class="tight"><strong>Prof. Eric Darmon</strong></p><p class="muted tight">Paris Nanterre</p></div></div></div></section>
+</main>
+
+<footer class="footer"><div class="footer-inner"><span>© <span id="y"></span> NGUYEN Anh-Tuan</span><span class="muted">•</span><a href="./cv.pdf" target="_blank">CV</a></div></footer>
+
+<script>
+  const tabs = Array.from(document.querySelectorAll(".tab"));
+  const panels = Array.from(document.querySelectorAll(".panel"));
+  function activate(name, pushHash = true) {
+    tabs.forEach(t => { const on = t.dataset.tab === name; t.classList.toggle("active", on); t.setAttribute("aria-selected", on ? "true" : "false"); });
+    panels.forEach(p => { p.classList.toggle("hidden", p.dataset.panel !== name); });
+    if (pushHash) history.replaceState(null, "", "#" + name);
+    const panel = document.querySelector(`[data-panel="${name}"]`);
+    if (panel) panel.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  document.querySelectorAll("[data-tab-link]").forEach(a => a.addEventListener("click", (e) => { e.preventDefault(); activate(a.getAttribute("data-tab-link")); }));
+  tabs.forEach(t => t.addEventListener("click", () => activate(t.dataset.tab)));
+  const initial = (location.hash || "#about").replace("#", "");
+  const exists = tabs.some(t => t.dataset.tab === initial);
+  activate(exists ? initial : "about", false);
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
